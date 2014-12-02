@@ -9,7 +9,7 @@ textarea {
 }
 
 html {
-    background: #f7f7f7;
+    background: #ffffff;
 }
 
 ::-moz-selection {
@@ -61,7 +61,10 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/1.4 Open Sans, Helvetica, Arial, sans-serif;
+    font-family: 'Merriweather', serif;
+    font-weight: 200;
+    line-height: 1.61798;
+    text-rendering: optimizeLegibility;
 }
 
 .wrapper {
@@ -241,6 +244,7 @@ nav a:hover {
 
     .main article {
         float: left;
+        font-size: 1em;
         #width: 57%;
     }
 
