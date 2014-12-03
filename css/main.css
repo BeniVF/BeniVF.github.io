@@ -56,10 +56,6 @@ textarea {
 }
 
 
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
 body {
     font-family: 'Merriweather', serif;
     font-weight: 200;
@@ -79,14 +75,12 @@ body {
     border-bottom: 20px solid rgba(0, 0, 0, 0.2);
 }
 
-.footer-container,
-.main aside {
+.footer-container {
     border-top: 20px solid rgba(0, 0, 0, 0.2);
 }
 
 .header-container,
-.footer-container,
-.main aside {
+.footer-container {
     background: rgba(0, 0, 0, 0.2);
 }
 
@@ -137,11 +131,6 @@ nav a:hover {
     font-size: 2em;
 }
 
-.main aside {
-    color: white;
-    padding: 0px 5% 10px;
-}
-
 .footer-container footer {
     color: white;
     padding: 20px 0;
@@ -158,10 +147,17 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.publish-date {
+    color: #757575;
+    font-size: .875em;
 
+}
 
-
-
+.author {
+    color: #757575;
+    font-size: .675em;
+    display: inline-block;
+}
 
 
 
@@ -218,8 +214,7 @@ nav a:hover {
     WIDE: CSS3 Effects
    ==================== */
 
-    .header-container,
-    .main aside {
+    .header-container {
         -webkit-box-shadow: 0 5px 10px #aaa;
            -moz-box-shadow: 0 5px 10px #aaa;
                 box-shadow: 0 5px 10px #aaa;
@@ -243,15 +238,14 @@ nav a:hover {
    ============ */
 
     .main article {
-        float: left;
-        font-size: 1em;
-        #width: 57%;
+        position: relative;
+        margin: 0 auto;
+        /*font-size: 1em;*/
+        /*width: 57%;*/
+        font-size: 22px;
+        max-width: 800px;
     }
 
-    .main aside {
-        float: right;
-        width: 28%;
-    }
 }
 
 @media only screen and (min-width: 1140px) {
