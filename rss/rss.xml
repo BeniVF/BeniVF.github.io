@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+    <channel>
+        <title>Embrace imperfection!</title>
+        <link>http://embraceimperfection.co.uk/</link>
+        <description>Place for reflexion for software engineering</description>
+        <item>
+            <title>Turn an ice-cream cone into a pyramid</title>
+            <link>http://embraceimperfection.co.uk/turn-an-ice-cream-cone-into-a-pyramid</link>
+            <pubDate>December 21, 2014</pubDate>
+            <description>This post talks about the problems related to the ice-cream cone anti pattern and how to
+                transform it into pyramid using Hexagonal architecture.
+            </description>
+        </item>
+        <item>
+            <title>Embrace imperfection!</title>
+            <pubDate>December 5, 2014</pubDate>
+            <link>http://embraceimperfection.co.uk/embrace-imperfection</link>
+            <description>The first post talks about why we should Embrace Imperfection.</description>
+        </item>
+
+    </channel>
+
+</rss>
